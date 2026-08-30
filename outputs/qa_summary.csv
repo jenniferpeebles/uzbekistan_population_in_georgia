@@ -1,0 +1,6 @@
+dataset,rows,duplicate_geoids,missing_estimates,missing_moes,missing_total_population,missing_denominator_moes,impossible,moe_gt_estimate,high_cv,reliability_eligible,reliability_excluded
+states,51,0,0,0,0,51,0,11,30,19,32
+msas,393,0,6,6,0,389,0,324,150,17,376
+counties,159,0,0,0,0,157,0,156,10,0,159
+places,675,0,0,0,0,5,0,675,10,0,675
+tracts,2796,0,0,0,0,3,0,2796,31,0,2796

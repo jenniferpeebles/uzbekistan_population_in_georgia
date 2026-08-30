@@ -1,0 +1,5 @@
+GEOID,NAME,total_population,uzbekistan_born_foreign_born,total_population_moe,uzbekistan_born_foreign_born_moe,uzbekistan_born_foreign_born_pct,uzbekistan_born_foreign_born_pct_moe,uzbekistan_born_foreign_born_ci90_lower,uzbekistan_born_foreign_born_ci90_upper,uzbekistan_born_foreign_born_cv,uzbekistan_born_foreign_born_moe_gt_estimate,uzbekistan_born_foreign_born_ci_crosses_zero,uzbekistan_born_foreign_born_high_cv,place_name,place_type
+1349008,"Macon-Bibb County, Georgia",156578,0,NA,34,0,NA,0,34,NA,TRUE,TRUE,NA,Macon-Bibb County,consolidated government
+1319000,"Columbus city, Georgia",203711,0,NA,34,0,NA,0,34,NA,TRUE,TRUE,NA,Columbus city,consolidated government
+1304204,"Augusta-Richmond County consolidated government (balance), Georgia",201528,0,20,34,0,0.01687110475963637,0,34,NA,TRUE,TRUE,NA,Augusta-Richmond County consolidated government (balance),consolidated government
+1303440,"Athens-Clarke County unified government (balance), Georgia",127345,0,606,34,0,0.0266991244257725,0,34,NA,TRUE,TRUE,NA,Athens-Clarke County unified government (balance),consolidated government

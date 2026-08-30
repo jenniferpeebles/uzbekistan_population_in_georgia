@@ -1,0 +1,4 @@
+geography,received,retained,excluded,population_floor,empty_geometry
+counties,159,0,159,0,0
+places,675,0,675,1000,0
+tracts,2796,0,2796,500,5

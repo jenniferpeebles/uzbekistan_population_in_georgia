@@ -1,0 +1,2 @@
+country,capital,capital_longitude,capital_latitude,source,retrieved
+Uzbekistan,Tashkent,69.269,41.3052,https://api.worldbank.org/v2/country/UZ?format=json,2026-08-30

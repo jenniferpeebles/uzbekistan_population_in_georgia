@@ -1,0 +1,3 @@
+name,label,concept,geography,machine_name,table,human_label,universe
+B01001_001,Estimate!!Total:,Sex by Age,NA,total_population,B01001,Total population,Total population
+B05006_066,Estimate!!Total:!!Asia:!!South Central Asia:!!Uzbekistan,Place of Birth for the Foreign-Born Population in the United States,NA,uzbekistan_born_foreign_born,B05006,Foreign-born residents born in Uzbekistan,Foreign-born population in the United States

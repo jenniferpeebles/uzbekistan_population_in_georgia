@@ -1,6 +1,6 @@
 # Reporter brief
 
-The **2020–2024 ACS five-year estimates** estimate **1,705 foreign-born Georgia residents born in Uzbekistan**, with a **90% margin of error of ±1,434**. The approximate 90% confidence interval is **271–3,139** residents. The statewide estimate fails this project's reliability screen. Treat it as an uncertain estimate, not a precise count.
+The **2020-2024 ACS five-year estimates** estimate **1,705 foreign-born Georgia residents born in Uzbekistan**, with a **90% margin of error of ±1,434**. The approximate 90% confidence interval is **271–3,139** residents. The statewide estimate fails this project's reliability screen. Treat it as an uncertain estimate, not a precise count.
 
 ## Geographic caution
 
@@ -10,7 +10,7 @@ Statewide coefficient of variation: 51.1%. The review threshold is 30%.
 
 ## Suggested social post (review before posting)
 
-Happy Independence Day, Uzbekistan! 🇺🇿 September 1 is a chance to celebrate our Georgia neighbors with ties to Uzbekistan. The 2020–2024 ACS five-year estimates put Georgia's foreign-born population born in Uzbekistan at about 1,705 (90% margin of error: ±1,434). That's a very uncertain survey estimate, not a count of everyone with Uzbek heritage.
+Happy Independence Day, Uzbekistan! 🇺🇿 September 1 is a chance to celebrate our Georgia neighbors with ties to Uzbekistan. The 2020-2024 ACS five-year estimates put Georgia's foreign-born population born in Uzbekistan at about 1,705 (90% margin of error: ±1,434). That's a very uncertain survey estimate, not a count of everyone with Uzbek heritage.
 
 ## Questions for reporting
 

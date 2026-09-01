@@ -3,7 +3,7 @@
 # Assumptions: ACS 5-year birthplace, not ethnicity. Run before scripts 01–06.
 acs_year <- 2024L
 acs_survey <- "acs5"
-acs_product_label <- paste0(acs_year - 4L, "–", acs_year, " ACS five-year estimates")
+acs_product_label <- paste0(acs_year - 4L, "-", acs_year, " ACS five-year estimates")
 analysis_state <- "GA"
 cv_review_threshold <- 30
 minimum_place_population <- 1000

@@ -1,6 +1,6 @@
 # Happy Independence Day, Uzbekistan! 🇺🇿
 
-{{FLAG}}
+<img src="https://github.com/jenniferpeebles/uzbekistan_population_in_georgia/raw/refs/heads/main/assets/uzbekistan_flag.png" alt="Flag of Uzbekistan" width="320">
 
 September 1 is **Uzbekistan's Independence Day** — a lovely occasion to learn a little about the country and the people who connect it to Georgia, the U.S. state. Uzbekistan declared independence on August 31, 1991; the national holiday is celebrated September 1. [Holiday source: Government of Uzbekistan](https://gov.uz/en/rishton/news/view/74095).
 

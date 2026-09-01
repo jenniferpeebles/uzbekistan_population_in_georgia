@@ -54,10 +54,9 @@ if (file.exists("outputs/country_facts.csv")) {
                          "**. This fact comes from the [World Bank country API](", country$source,
                          "), retrieved ", country$retrieved, ". The API supplies country context; it does not supply the Georgia estimate.")
 }
-flag_text <- if (file.exists("assets/uzbekistan_flag.png")) "![Flag of Uzbekistan](assets/uzbekistan_flag.png)" else "🇺🇿"
 template <- readLines("docs/readme_template.md", encoding = "UTF-8")
 replacements <- list("{{HEADLINE}}" = headline, "{{LOCAL_NOTE}}" = local_note,
-                     "{{COUNTRY_FACTS}}" = country_text, "{{FLAG}}" = flag_text,
+                     "{{COUNTRY_FACTS}}" = country_text,
                      "{{SOCIAL_POST}}" = social, "{{PERIOD}}" = acs_product_label,
                      "{{RUN_DATE}}" = as.character(Sys.Date()))
 # All source files and the template are UTF-8. Byte-preserving substitution

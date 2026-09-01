@@ -1,6 +1,6 @@
 # Happy Independence Day, Uzbekistan! 🇺🇿
 
-![Flag of Uzbekistan](assets/uzbekistan_flag.png)
+<img src="https://github.com/jenniferpeebles/uzbekistan_population_in_georgia/raw/refs/heads/main/assets/uzbekistan_flag.png" alt="Flag of Uzbekistan" width="320">
 
 September 1 is **Uzbekistan's Independence Day** — a lovely occasion to learn a little about the country and the people who connect it to Georgia, the U.S. state. Uzbekistan declared independence on August 31, 1991; the national holiday is celebrated September 1. [Holiday source: Government of Uzbekistan](https://gov.uz/en/rishton/news/view/74095).
 
@@ -71,4 +71,4 @@ Built for Jennifer Peebles' national-holiday data posts, adapted from her Irania
 
 > A note from JP: I built this project with help from ChatGPT/Codex, which drafted this README from the project's code, outputs and my instructions. I want to be transparent about the help I received.
 
-Generated from the project outputs on 2026-08-30. Human editorial review is still needed before publication.
+Generated from the project outputs on 2026-09-01. Human editorial review is still needed before publication.

@@ -68,7 +68,8 @@ concentration rankings also require 100,000 total residents and count reliabilit
 ## Geography and maps
 
 The pipeline requests 2024 geography through tidycensus/tigris. Static Georgia
-maps use NAD83 / Conus Albers, EPSG:5070. GeoJSON exports use WGS84, EPSG:4326;
+maps use WGS 84 / Pseudo-Mercator (Web Mercator), EPSG:3857. GeoJSON exports
+use WGS84, EPSG:4326;
 script 04 reopens them and checks CRS and row counts. Five coastal 990000 tracts
 have empty cartographic geometry in the initial run. QA permits empty geometry
 only for zero-population tracts with that tract code, saves the affected rows,

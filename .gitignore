@@ -1,7 +1,15 @@
 .Renviron
 .Renviron.*
+.Renviron*
 .env
 .env.*
+.env*
+.httr-oauth
+.secrets/
+credentials.*
+*_tokens.rds
+*.pem
+*.key
 .Rhistory
 .RData
 .Ruserdata

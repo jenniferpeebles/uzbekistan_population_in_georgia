@@ -1,2 +1,2 @@
 GEOID,NAME,uzbekistan_born_foreign_born,uzbekistan_born_foreign_born_moe,uzbekistan_born_foreign_born_pct,uzbekistan_born_foreign_born_pct_moe,uzbekistan_born_foreign_born_ci90_lower,uzbekistan_born_foreign_born_ci90_upper,uzbekistan_born_foreign_born_cv,uzbekistan_born_foreign_born_moe_gt_estimate,uzbekistan_born_foreign_born_ci_crosses_zero,uzbekistan_born_foreign_born_high_cv,acs_year,collection_period,variable,generated
-13,Georgia,1705,1434,0.01558442935441067,NA,271,3139,51.12800720213212,FALSE,FALSE,TRUE,2024,2020-2024 ACS five-year estimates,B05006_066,2026-09-01
+13,Georgia,1705,1434,0.01558442935441067,NA,271,3139,51.12800720213212,FALSE,FALSE,TRUE,2024,2020-2024 ACS five-year estimates,B05006_066,2026-09-04

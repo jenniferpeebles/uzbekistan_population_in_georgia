@@ -77,7 +77,9 @@ for (level in c("counties", "places", "tracts")) {
       save_interactive(plotly::ggplotly(chart_places_birthplace), "georgia_places_chart.html")
     }
   }
-  static <- st_transform(spatial, 5070)
+  # Use Web Mercator for the review maps. Keep the underlying handoff and
+  # interactive data in WGS84 (EPSG:4326).
+  static <- st_transform(spatial, 3857)
   map_georgia_birthplace <- ggplot(static) +
     geom_sf(aes(fill = percent_for_map), color = "white", linewidth = .1) +
     scale_fill_viridis_c(name = "% born in\nUzbekistan", na.value = "#dddddd") +

@@ -21,7 +21,7 @@ reliability_text <- if (reliable_estimate(ga)) {
 }
 headline <- paste0("The **", acs_product_label, "** estimate **", estimate,
                    " foreign-born Georgia residents born in Uzbekistan**, with a **90% margin of error of ±", moe,
-                   "**. The approximate 90% confidence interval is **", interval, "** residents. ", reliability_text)
+                   "**. The approximate 90 percent confidence interval is **", interval, "** residents. ", reliability_text)
 local_qa <- filter(qa, dataset %in% c("counties", "places", "tracts"))
 local_note <- if (all(local_qa$reliability_eligible == 0)) {
   "No Georgia county, place or tract estimate passes the project's reliability screen. Do not use these estimates to name a biggest local community. Local maps are gray because the estimates fail the screen, not because nobody lives there."
@@ -31,7 +31,7 @@ local_note <- if (all(local_qa$reliability_eligible == 0)) {
          ". Population floors may exclude additional places and tracts. Rankings do not establish statistically significant differences.")
 }
 social_caution <- if (reliable_estimate(ga)) "That's a survey estimate, not a count of everyone with Uzbek heritage." else "That's a very uncertain survey estimate, not a count of everyone with Uzbek heritage."
-social <- paste0("Happy Independence Day, Uzbekistan! 🇺🇿 September 1 is a chance to celebrate our Georgia neighbors with ties to Uzbekistan. ",
+social <- paste0("Happy Independence Day, Uzbekistan! Sept. 1 is a chance to celebrate our Georgia neighbors with ties to Uzbekistan. ",
                  "The ", acs_product_label, " put Georgia's foreign-born population born in Uzbekistan at about ", estimate,
                  " (90% margin of error: ±", moe, "). ", social_caution)
 writeLines(social, "outputs/social_post_draft.txt", useBytes = TRUE)

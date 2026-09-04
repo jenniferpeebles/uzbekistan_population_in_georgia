@@ -1,8 +1,10 @@
 # Validation record — August 30, 2026
 
 The full pipeline completed with R 4.5.3, using cached Census observations from
-this project's live API download. It regenerated the data, QA, figures,
-interactive files, country facts, reporter brief and README.
+this project's live API download. At initial validation, it regenerated the
+data, QA, figures, interactive files, country facts, reporter brief and README.
+The workflow was later simplified so `README.md` is edited directly and the
+pipeline no longer changes it.
 
 - Coverage: 51 states/DC, 393 metropolitan areas, 159 Georgia counties,
   675 Georgia places and 2,796 tracts. No duplicate geography IDs or impossible

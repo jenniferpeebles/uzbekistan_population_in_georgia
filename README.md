@@ -37,7 +37,7 @@ Add the public repository link after publication. This is a draft for human revi
 
 Internet access is needed for Census data and boundaries, variable metadata and optional country context, but if you're reading this online, I'm guessing you have that already. Source observations are cached locally; set `refresh_downloads <- TRUE` in `scripts/00_config.R` to replace them. The default release is 2024, pooling 2020–2024 responses. Changing the release requires rechecking variables, geography and documentation; a new variable code is never guessed automatically.
 
-**Editing this README:** edit `docs/readme_template.md`, then rerun script 06 after the pipeline. It generates the numerical text from current outputs and overwrites `README.md`. Do not hand-edit a result into the generating code.
+**Editing this README:** `README.md` is the project's single source of truth for public documentation. Edit it directly. The R pipeline does not overwrite it. When the data are refreshed, compare the generated `outputs/reporter_brief.md` and `outputs/georgia_summary.csv` with the numbers stated here and update this file after editorial review.
 
 ## What's in the project?
 
@@ -49,7 +49,7 @@ Internet access is needed for Census data and boundaries, variable metadata and 
 | `03_quality_assurance.R` | Checks coverage, duplicate IDs, missing values, uncertainty, geographic issues and county/state reconciliation |
 | `04_charts_maps_interactives.R` | Builds review charts, static and interactive maps, rankings and WGS84 GeoJSON |
 | `05_country_facts.R` | Retrieves a World Bank country profile and flag image |
-| `06_reporter_brief_readme.R` | Generates the reporter brief, suggested post and this README |
+| `06_reporter_brief.R` | Generates the reporter brief, suggested post and machine-readable Georgia summary |
 
 Start with [the reporter brief](outputs/reporter_brief.md), [Georgia summary](outputs/georgia_summary.csv) and [QA summary](outputs/qa_summary.csv). Detailed generated data, maps and interactives are produced locally and ignored by Git; small review summaries and the flag are retained for public transparency. Static analysis graphics carry **NOT FOR PUBLICATION** watermarks, but you can always tweak the code to remove those
 
@@ -70,10 +70,10 @@ This project uses a number of R packages, including the [tidyverse family of pac
 
 ## About this project
 
-Built for Jennifer Peebles' national-holiday data posts, adapted from her Iranian population in Georgia R project. This repository is prepared for eventual public sharing; generating it does not publish it or post to social media.
+Built for Jennifer Peebles' national-holiday data posts, adapted from her Iranian population in Georgia R project. This repository is shared publicly; running the R pipeline does not publish files or post to social media.
 
-> A note from JP: I built this project with help from ChatGPT/Codex, which drafted this README from the project's code, outputs and my instructions. I want to be transparent about the help I received.
+> A note from JP: I built this project with help from ChatGPT/Codex, which wrote much of the project code and generated the initial README from the code, outputs and my instructions. I have since edited parts of the README in my own voice, but I want to be transparent about the substantial help I received.
 
 [Jennifer Peebles](https://www.ajc.com/staff/jennifer-peebles/) / [Atlanta Journal-Constitution](https://www.ajc.com/)
 
-Generated from the project outputs on 2026-09-04. Human editorial review is still needed before publication.
+Data outputs last refreshed on 2026-09-04. This README was initially generated with help from ChatGPT/Codex and is now maintained directly as the public documentation.

@@ -1,6 +1,6 @@
-# Purpose: Generate current findings, a suggested social post and public README.
-# Inputs: QA-approved ACS tables, optional country facts, docs/readme_template.md.
-# Outputs: README.md, reporter brief, social draft, session info and summary CSV.
+# Purpose: Generate current findings and reporter-facing analytical outputs.
+# Inputs: QA-approved ACS tables.
+# Outputs: Reporter brief, social draft, session info and summary CSV.
 # Assumption: Generated text is unreviewed; no claim of publication approval.
 # Run last after scripts 01–05. Numbers always come from this run's objects.
 source("scripts/00_config.R")
@@ -47,22 +47,5 @@ writeLines(brief, "outputs/reporter_brief.md", useBytes = TRUE)
 summary <- ga %>% select(GEOID, NAME, starts_with("uzbekistan")) %>%
   mutate(acs_year = acs_year, collection_period = acs_product_label, variable = "B05006_066", generated = as.character(Sys.Date()))
 write_csv(summary, "outputs/georgia_summary.csv")
-country_text <- "The optional country API profile was unavailable on this run. Explore Uzbekistan on the map linked below."
-if (file.exists("outputs/country_facts.csv")) {
-  country <- read_csv("outputs/country_facts.csv", show_col_types = FALSE)
-  country_text <- paste0("A little geography to go with the celebration: Uzbekistan's capital is **", country$capital,
-                         "**. This fact comes from the [World Bank country API](", country$source,
-                         "), retrieved ", country$retrieved, ". The API supplies country context; it does not supply the Georgia estimate.")
-}
-template <- readLines("docs/readme_template.md", encoding = "UTF-8")
-replacements <- list("{{HEADLINE}}" = headline, "{{LOCAL_NOTE}}" = local_note,
-                     "{{COUNTRY_FACTS}}" = country_text,
-                     "{{SOCIAL_POST}}" = social, "{{PERIOD}}" = acs_product_label,
-                     "{{RUN_DATE}}" = as.character(Sys.Date()))
-# All source files and the template are UTF-8. Byte-preserving substitution
-# avoids Windows C-locale conversion corrupting the flag emoji and MOE symbol.
-for (token in names(replacements)) template <- gsub(token, replacements[[token]], template, fixed = TRUE, useBytes = TRUE)
-stopifnot(all(validUTF8(template)), !any(grepl("{{", template, fixed = TRUE, useBytes = TRUE)))
-writeLines(template, "README.md", useBytes = TRUE)
 writeLines(capture.output(sessionInfo()), "outputs/session_info.txt")
-log_message("README and reporter brief generated from current data.")
+log_message("Reporter brief and machine-readable summary generated from current data.")

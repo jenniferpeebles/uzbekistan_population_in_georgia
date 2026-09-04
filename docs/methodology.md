@@ -104,6 +104,10 @@ downloads cannot manufacture facts if unavailable. There is no live API call
 inside GitHub Markdown: R retrieves facts and writes static Markdown.
 
 All graphics are review drafts. No automated social posting, GitHub publishing,
-or claim of human review occurs. README text lives in `docs/readme_template.md`;
-script 06 inserts current computed findings. Small summary/audit files are
-intentionally tracked, while large generated data and exports stay local.
+or claim of human review occurs. `README.md` is edited directly and is the sole
+source of truth for public documentation; the pipeline does not overwrite it.
+ChatGPT/Codex generated the initial README and much of the project code; that
+origin remains disclosed even though Jennifer subsequently edits the README.
+After refreshing data, compare its claims with the generated reporter brief and
+Georgia summary. Small summary/audit files are intentionally tracked, while
+large generated data and exports stay local.

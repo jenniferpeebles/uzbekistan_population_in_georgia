@@ -66,14 +66,14 @@ No Georgia county, place or tract estimate passes the project's reliability scre
 Read [the methodology and adaptation notes](docs/methodology.md) for the full accounting of what carried over from the Iranian population project and what could not.
 
 ## Special thanks
-This project uses a number of R packages, including the [tidyverse family of packages](https://tidyverse.tidyverse.org/index.html) created by [Hadley Wickham](https://hadley.nz/) et al. It also uses the [tidycensus package](https://cran.r-project.org/web/packages/tidycensus/index.html) and the [tigris package](https://cran.r-project.org/web/packages/tigris/index.html), both created by [Kyle Walker](https://walker-data.com/), to access U.S. Census Bureau data and work with TIGER/Line geographic files. I am also very grateful for packages including [janitor](https://cran.r-project.org/web/packages/janitor/index.html) and [sf](https://cran.r-project.org/web/packages/sf/index.html), among others. Thank you to the brilliant people behind these packages who wrote all the code and keep it maintained.
+This project uses a number of R packages, including the [tidyverse family of packages](https://tidyverse.tidyverse.org/index.html) created by [Hadley Wickham](https://hadley.nz/) et al. It also uses the [tidycensus](https://cran.r-project.org/web/packages/tidycensus/index.html) and [tigris](https://cran.r-project.org/web/packages/tigris/index.html) packages, both created by [Kyle Walker](https://walker-data.com/), to access U.S. Census Bureau data and work with TIGER/Line geographic files. I am also very grateful for packages including [janitor](https://cran.r-project.org/web/packages/janitor/index.html) and [sf](https://cran.r-project.org/web/packages/sf/index.html), among others. Thank you to the brilliant people behind these packages who wrote all that code and keep it maintained.
 
 ## About this project
 
 Built for Jennifer Peebles' national-holiday data posts, adapted from her Iranian population in Georgia R project. This repository is shared publicly; running the R pipeline does not publish files or post to social media.
 
-> A note from JP: I built this project with help from ChatGPT/Codex, which wrote much of the project code and generated the initial README from the code, outputs and my instructions. I have since edited parts of the README in my own voice, but I want to be transparent about the substantial help I received.
+> A note from JP: I built this project with help from ChatGPT/Codex, which wrote much of the project code and generated the initial README from the code, outputs and my instructions and my original Iranian population project. I have since edited parts of the README in my own voice, but I want to be transparent about the help I received.
 
 [Jennifer Peebles](https://www.ajc.com/staff/jennifer-peebles/) / [Atlanta Journal-Constitution](https://www.ajc.com/)
 
-Data outputs last refreshed on 2026-09-04. This README was initially generated with help from ChatGPT/Codex and is now maintained directly as the public documentation.
+Data outputs last refreshed on 2026-09-04. The initial version of this README was generated with help from ChatGPT/Codex and is now maintained directly as the public documentation.
